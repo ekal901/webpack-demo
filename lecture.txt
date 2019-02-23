@@ -1,0 +1,15 @@
+1. 모듈환경
+#의존성 모듈 설치
+npm init
+#의존성 모듈 설치 (lodash 설치)
+npm install –save lodash
+-> --save는 의존성 모듈을 package.json에 기록하라는 것
+npm 사이트에서 Popularity와 Maintenance가 제일 중요하다
+#개발 의존성 등록
+npm install webpack webpack-cli –save-dev
+개발에서만 사용되는 dependencies는 dev에 깔도록 한다.
+
+#config.js 규칙에 따라서 컴파일하는 명령어
+npx webpack --config webpack.config.js
+
+http-server ./dist 
